@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      "react-native-multiple-choice",
+      "e:\\Android\\shanxiang"
+    ]
+  ],
+  "_cnpm_publish_time": 1458300988796,
+  "_from": "react-native-multiple-choice@latest",
+  "_id": "react-native-multiple-choice@0.0.7",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-multiple-choice",
+  "_nodeVersion": "5.7.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/react-native-multiple-choice-0.0.7.tgz_1458300985272_0.43064763164147735"
+  },
+  "_npmUser": {
+    "email": "dan@imake.io",
+    "name": "d-a-n"
+  },
+  "_npmVersion": "3.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "react-native-multiple-choice",
+    "raw": "react-native-multiple-choice",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/react-native-multiple-choice/download/react-native-multiple-choice-0.0.7.tgz",
+  "_shasum": "5329f6abf5a7a210701b40f65e36fd102ae5a78a",
+  "_shrinkwrap": null,
+  "_spec": "react-native-multiple-choice",
+  "_where": "e:\\Android\\shanxiang",
+  "author": {
+    "email": "dan@imake.io",
+    "name": "Daniel Korger",
+    "url": "https://imake.io"
+  },
+  "bugs": {
+    "url": "https://github.com/d-a-n/react-native-multiple-choice/issues"
+  },
+  "dependencies": {},
+  "description": "A cross-platform (iOS / Android) single and multiple-choice React Native component.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "noattachment": false,
+    "shasum": "5329f6abf5a7a210701b40f65e36fd102ae5a78a",
+    "size": 50444,
+    "tarball": "http://registry.npm.taobao.org/react-native-multiple-choice/download/react-native-multiple-choice-0.0.7.tgz"
+  },
+  "gitHead": "6a9cbbabfd95f177af4d8b99201707c40f8b377c",
+  "homepage": "https://github.com/d-a-n/react-native-multiple-choice#readme",
+  "keywords": [
+    "android",
+    "ios",
+    "multiple-choice",
+    "react-component",
+    "react-native",
+    "single-choice"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "d-a-n",
+      "email": "dan@imake.io"
+    }
+  ],
+  "name": "react-native-multiple-choice",
+  "optionalDependencies": {},
+  "publish_time": 1458300988796,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-a-n/react-native-multiple-choice.git"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.7"
+}
