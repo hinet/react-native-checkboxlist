@@ -41,7 +41,8 @@ npm install hinet/react-native-checkbox --save
 
 ## 截图
 
-![example](https://raw.githubusercontent.com/d-a-n/react-native-multiple-choice/master/assets/images/screenshot.png)
+![example](https://github.com/hinet/react-native-checkbox/blob/master/assets/images/screenshot01.png)
+![example](https://github.com/hinet/react-native-checkbox/blob/master/assets/images/screenshot02.png)
 
 
 
