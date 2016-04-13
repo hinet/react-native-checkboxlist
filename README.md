@@ -9,22 +9,34 @@ npm install hinet/react-native-checkbox --save
 ## 使用
 
 这里是组件使用的概述。
-
+### 使用示例1
 ```jsx
-<MultipleChoice
+<CheckboxList
     options={[
     'Lorem ipsum dolor sit',
     'Lorem ipsum',
-    'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-    'Lorem ipsum dolor sit amet, consetetur',
-    'Lorem ipsum dolor'
+    'Lorem ipsum dolor sit amet, consetetur sadipscing elitr',
+    'Lorem ipsum dolor sit amet, consetetur'
     ]}
     selectedOptions={['Lorem ipsum']}
     maxSelectedOptions={2}
     onSelection={(option)=>alert(option + ' was selected!')}
 />
 ```
-
+### 使用示例2
+分别设置值和显示文字
+```jsx
+<CheckboxList
+    options={[
+    {label:'Lorem ipsum dolor sit',value:'A'},
+    {label:'Lorem ipsum',value:'B'},
+    {label:'Lorem ipsum dolor sit amet, consetetur sadipscing elitr',value:'C'},
+    {label:'Lorem ipsum dolor sit amet, consetetur',value:'D'}
+    ]}
+    selectedOptions={['A','C']}
+    onSelection={(option)=>alert(option + ' was selected!')}
+/>
+```
 ## 属性
 
 * `style - {}` custom style of the list
@@ -42,6 +54,7 @@ npm install hinet/react-native-checkbox --save
 ## 截图
 
 ![example](https://github.com/hinet/react-native-checkbox/blob/master/assets/images/screenshot01.png)
+
 ![example](https://github.com/hinet/react-native-checkbox/blob/master/assets/images/screenshot02.png)
 
 
