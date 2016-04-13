@@ -1,16 +1,16 @@
-# react-native-checkbox
+# react-native-checkboxlist
 一个跨平台（iOS和Android）单和多项选择React Native组件。此组件基于react-native-multiple-choice
 ## 安装
 
 ```sh
-npm install hinet/react-native-checkbox --save
+npm install react-native-checkboxlist --save
 ```
 
 ## 使用
 
 这里是组件使用的概述。
 ```jsx
-import CheckboxList from 'react-native-checkbox'
+import CheckboxList from 'react-native-checkboxlist'
 ```
 ### 使用示例1
 ```jsx
@@ -57,11 +57,11 @@ import CheckboxList from 'react-native-checkbox'
 ## 截图
 示例1
 
-![example](https://github.com/hinet/react-native-checkbox/blob/master/assets/images/screenshot02.png)
+![example](https://github.com/hinet/react-native-checkboxlist/blob/master/assets/images/screenshot02.png)
 
 示例2
 
-![example](https://github.com/hinet/react-native-checkbox/blob/master/assets/images/screenshot01.png)
+![example](https://github.com/hinet/react-native-checkboxlist/blob/master/assets/images/screenshot01.png)
 
 
 
