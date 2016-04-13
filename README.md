@@ -9,6 +9,9 @@ npm install hinet/react-native-checkbox --save
 ## 使用
 
 这里是组件使用的概述。
+```jsx
+import CheckboxList from 'react-native-checkbox'
+```
 ### 使用示例1
 ```jsx
 <CheckboxList
