@@ -35,7 +35,7 @@ const defaultProps = {
     disabled: false
 };
 
-class MultipleChoice extends BaseComponent {
+class CheckboxList extends BaseComponent {
 
     constructor(props) {
         super(props);
@@ -204,7 +204,7 @@ class MultipleChoice extends BaseComponent {
     }
 };
 
-MultipleChoice.propTypes = propTypes;
-MultipleChoice.defaultProps = defaultProps;
+CheckboxList.propTypes = propTypes;
+CheckboxList.defaultProps = defaultProps;
 
-module.exports = MultipleChoice;
+module.exports = CheckboxList;
