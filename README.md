@@ -52,10 +52,12 @@ npm install hinet/react-native-checkbox --save
 * `disabled - bool` if set to true component is disabled and can't be interacted with
 
 ## 截图
-
+示例1
+![example](https://github.com/hinet/react-native-checkbox/blob/master/assets/images/screenshot02.png)
+示例2
 ![example](https://github.com/hinet/react-native-checkbox/blob/master/assets/images/screenshot01.png)
 
-![example](https://github.com/hinet/react-native-checkbox/blob/master/assets/images/screenshot02.png)
+
 
 
 
