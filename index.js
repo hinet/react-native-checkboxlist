@@ -1,29 +1,26 @@
 'use strict';
 
-import React from 'react-native';
-var {
+import React, { Component } from 'react';
+import {
     Text,
     TouchableOpacity,
     View,
     Image,
     ListView,
-    PropTypes
-    } = React;
-
+} from 'react-native';
+import PropTypes from 'prop-types';
 import BaseComponent from './BaseComponent'
 import Styles from './styles'
 
 const propTypes = {
-    options: React.PropTypes.array.isRequired,
-    selectedOptions: React.PropTypes.array,
-    maxSelectedOptions: React.PropTypes.number,
-    onSelection: React.PropTypes.func,
-    renderIndicator: React.PropTypes.func,
-    renderSeparator: React.PropTypes.func,
-    renderRow: React.PropTypes.func,
-    renderText: React.PropTypes.func,
-    style: View.propTypes.style,
-    optionStyle: View.propTypes.style,
+    options: PropTypes.array.isRequired,
+    selectedOptions: PropTypes.array,
+    maxSelectedOptions: PropTypes.number,
+    onSelection: PropTypes.func,
+    renderIndicator: PropTypes.func,
+    renderSeparator: PropTypes.func,
+    renderRow: PropTypes.func,
+    renderText: PropTypes.func,
     disabled: PropTypes.bool
 };
 const defaultProps = {
